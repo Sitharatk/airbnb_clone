@@ -1,0 +1,344 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+       
+}
+.nav{
+   
+    width: 100%;
+    height: 10vh;
+    background-color:white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    
+   
+
+}
+
+.nav .tran ,.tran1 ,.tran3{
+    background-color: white;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+    
+}
+.nav .tran1:hover{
+   
+    background-color: whitesmoke;
+    color: rgb(65, 63, 63);
+} 
+.nav .tran:hover{
+    background-color: whitesmoke;
+}
+.nav .tran2{
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor:pointer;
+    border-color: gray;
+    
+}
+.nav .tran2  i{
+    font-size: 25px;
+   
+}
+.nav .tran2:hover{
+    
+    box-shadow:  3px 3px 5px rgb(182, 179, 179);
+}
+.navbt{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+
+}
+.navbt-1{
+    position: relative;
+    width: 800px;
+    height: 10vh;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow:  3px 3px 5px rgb(182, 179, 179);
+
+
+}
+.navbt .navbt-1 button{
+    background-color: white;
+    padding: 13px 48px;
+    border-radius: 25px;
+    font-size: 15px;
+    border:none;
+    cursor: pointer;
+   
+    
+    text-align: left;
+    
+}
+.vertical-line {
+    width: 1px; 
+    height: 30px; 
+    background-color: black;
+    
+}
+.navbt .navbt-1 h4{
+    text-align: start;
+}
+.navbt .navbt-1 button:hover{
+    background-color: whitesmoke;
+    
+}
+.navbt .navbt-1 img{
+    padding-left: 7px;
+}
+.navbt .navbt-1 .icon {
+    background-color: rgb(224, 100, 100);
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px 10px 6px 10px;
+    margin-left:  20px;
+   
+    border: none;
+
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 4px;
+ 
+
+}
+.navbt .navbt-1 .icon:hover{
+    background-color: rgb(168, 20, 20);
+    color: white;
+
+}
+
+
+.items{
+   
+    width:100%;
+    height: 17vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top:1px solid rgb(206, 206, 206) ;
+    padding: 21px;
+    
+    
+}
+.items1 ,.items2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(131, 128, 128);
+    
+
+    
+
+}
+
+.items .items1 p{
+    margin-top: 10px;
+    font-size: small;
+}
+.items2 .arrow{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.items2 .arrow:hover{
+    transform: scale(1.04);
+    box-shadow: 2px ;
+}
+.items2 .arrow i{
+    font-size: 30px;
+    padding-top: 2px;
+}
+.items1:hover{
+    border-bottom: 2px solid rgb(107, 107, 107);
+
+}
+.items .items1  p:hover{
+    color:black;
+    
+}
+.items .items1 img{
+    opacity: 0.6;
+}
+.items .items1  img:hover{
+    opacity: 1;
+}
+.main{
+    width:100%;
+    
+    padding-right: 22px;
+    padding-left: 22px;
+    
+}
+
+.main .im{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.main .im img{
+   
+    border-radius: 17px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.main .im-1 img{
+   
+    border-radius: 17px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.image h4{
+    color: rgb(68, 66, 66);
+    
+    
+}
+.image p{
+    color:rgb(110, 110, 110)
+}
+.image-1  + h4,p{
+    cursor: pointer;
+}
+.image h4,p{
+    line-height: 22px;
+}
+.image button{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+   border: none;
+   font-weight: bold;
+   font-size: 18px;
+    background-color: rgb(197, 194, 194)
+}
+.image button:hover{
+    background-color: rgb(240, 235, 235);
+    transform: scale(1.04);
+    transition: .2s ease-in;
+    
+    
+}
+.image-1{
+    position: relative;
+}
+.image-1 .con{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.main .im-1{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.main .image-1 .arrow2{
+    position: absolute;
+    top: 42%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    background-color:  whitesmoke;
+    display: none;
+   
+    
+}
+.main .image-1 .arrow2 i{
+
+    font-size: 20px;
+    padding-left: 7px;
+    padding-top: 7px;
+     
+   
+    
+}
+.main .image-1:hover .arrow2 {
+    display: block;
+   
+   
+}
+
+.main .image-1 .cc .a,.b,.c{
+
+    width: 7px;
+    height: 7px;
+    background-color: rgb(207, 200, 200);
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+   
+}
+.main .image-1 .cc{
+    position: relative;
+    bottom:40px;
+   left: 75px;
+   transform: translateX(50px);
+
+}
+.main .image-1 .cc .b{
+    background-color: rgb(145, 142, 142);
+    width: 6px;
+    height: 6PX;
+
+}
+.main .image-1 .cc .c{
+    width: 5px;
+    height: 5PX;
+    background-color: rgb(107, 105, 105);
+    
+
+}
+hr{
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color:rgb(172, 167, 167);
+    border: none;
+    bottom:15px;
+    left: 228px;
+
+}
+.vertical{
+    left: 228px;
+}
+.vertical1{
+   
+    left:396px;
+
+}
+.vertical2{
+    left:570px;
+}
+.next{
+    width: 100%;
+    height: 10vh;
+    margin: 40px 0px 6px 40px;
+    color: rgb(29, 28, 28);
+}
